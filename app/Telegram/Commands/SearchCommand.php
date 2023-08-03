@@ -17,7 +17,7 @@ class SearchCommand extends Command
         $location = $this->argument('location');
         $limit = 3;
 
-        $client = new \GuzzleHttp\Client();
+        $client = new Client();
 
         // Make a request to the Yelp Fusion API
         $url = "https://api.yelp.com/v3/businesses/search?term=food&location={$location}&limit={$limit}";

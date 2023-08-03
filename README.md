@@ -1,5 +1,3 @@
-Sure! Below is a sample README.md file for your Laravel-based Culinary Bot project:
-
 # Culinary Bot - Telegram Bot for Restaurant Recommendations
 
 Culinary Bot is a Telegram bot designed to provide restaurant recommendations based on user input. The bot uses the Yelp Fusion API to search for nearby restaurants or food based on location or keywords provided by the user.
