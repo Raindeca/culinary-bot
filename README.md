@@ -92,15 +92,14 @@ These instructions will help you set up and run the Culinary Bot project on your
 ## Usage
 
 1. Start a conversation with the bot on Telegram.
-2. Use the `/search` command to begin searching for nearby restaurants or food.
-3. The bot will prompt you to enter your location or a keyword for the search.
-4. Provide the location or keyword, and the bot will respond with the top restaurant recommendations.
+2. Use the `/search {location_name}` command to begin searching for nearby restaurants or food on that location.
+3. The bot will respond with the top restaurant recommendations.
 
 ## Bot Commands
 
 The following command is supported by the Culinary Bot:
 
-- `/search`: Initiate a search for nearby restaurants or food. The bot will prompt you to enter your location or a keyword for the search.
+- `/search {location_name}`: Initiate a search for nearby restaurants or food.
 
 ## API Reference
 
